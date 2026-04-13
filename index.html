@@ -243,7 +243,8 @@
     </div>
 
     <!-- Creator table -->
-    <div class="creator-table-wrap">
+    <div class="creator-table-wrap creator-table-scrollable">
+      <div class="creator-scroll-hint">↕ Scroll to see all creators &nbsp;·&nbsp; <span id="ct-count"></span></div>
       <table class="creator-table">
         <thead>
           <tr>
@@ -256,8 +257,9 @@
           </tr>
         </thead>
         <tbody>
+          <!-- ── HOSTILE ── -->
           <tr class="ct-hostile">
-            <td><strong>BBC News Hindi</strong></td>
+            <td><strong><a href="https://www.youtube.com/@BBCNewsHindi" target="_blank" rel="noopener" class="creator-link">BBC News Hindi ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Bihar land deal investigation</td>
             <td><span class="sent-badge sent-hostile">Hostile</span></td>
@@ -265,7 +267,7 @@
             <td><span class="brand-absent">Absent</span></td>
           </tr>
           <tr class="ct-hostile">
-            <td><strong>Khan Sir Uncut</strong></td>
+            <td><strong><a href="https://www.youtube.com/@KhanSirUncut" target="_blank" rel="noopener" class="creator-link">Khan Sir Uncut ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Adani vs Ambani business reality</td>
             <td><span class="sent-badge sent-hostile">Hostile</span></td>
@@ -273,15 +275,193 @@
             <td><span class="brand-absent">Absent</span></td>
           </tr>
           <tr class="ct-hostile">
-            <td><strong>Aditya Kakkar</strong></td>
+            <td><strong><a href="https://www.youtube.com/@AdityaKakkar" target="_blank" rel="noopener" class="creator-link">Aditya Kakkar ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Bihar Rs1 land deal explainer</td>
             <td><span class="sent-badge sent-hostile">Hostile</span></td>
             <td>Government-Adani nexus, 10 lakh trees cleared</td>
             <td><span class="brand-absent">Absent</span></td>
           </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/@dhruvrathee" target="_blank" rel="noopener" class="creator-link">Dhruv Rathee ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani Group investigations &amp; crony capitalism</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Systematic political favouritism, Hindenburg context</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/@SansadTV" target="_blank" rel="noopener" class="creator-link">Sansad TV / Opposition Clips ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Parliamentary debates on Adani land &amp; contracts</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Regulatory capture, EIA exemption controversy</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/@AdvisoryExcellence" target="_blank" rel="noopener" class="creator-link">Advisory Excellence ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani corporate ethics &amp; SEC case explainer</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>US SEC bribery charges, governance red flags</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.instagram.com/viralkarbhar" target="_blank" rel="noopener" class="creator-link">Viralkarbhar ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Local protest at Adani cement factory</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Community resistance, environmental concern</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.instagram.com/thewire.in/" target="_blank" rel="noopener" class="creator-link">The Wire (Instagram) ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Investigative land &amp; environmental posts</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>EIA exemption, Assam land grab, NGT violations</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://twitter.com/RahulGandhi" target="_blank" rel="noopener" class="creator-link">Rahul Gandhi (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>Adani cronyism opposition messaging</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>"Modani" — political patron narrative at scale</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.reddit.com/r/india" target="_blank" rel="noopener" class="creator-link">r/india (Reddit) ↗</a></strong></td>
+            <td><span class="plat-pill plat-reddit">Reddit</span></td>
+            <td>IANS takeover, land grab, general Adani threads</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Media capture, monopoly formation, land coercion</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.reddit.com/r/Maharashtra" target="_blank" rel="noopener" class="creator-link">r/Maharashtra (Reddit) ↗</a></strong></td>
+            <td><span class="plat-pill plat-reddit">Reddit</span></td>
+            <td>Kalyan plant resistance &amp; EIA controversy</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>"Everything sold to Adani" — Raj Thackeray quote viral</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=ICvZG1JKbqo" target="_blank" rel="noopener" class="creator-link">Aditya Gautam ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Bihar ₹1 land deal — how Adani secured 1020 acres</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>State land given to Adani for ₹1 — viral Shorts framing</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=-bvSM2df40c" target="_blank" rel="noopener" class="creator-link">Dragon's Perception ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Your house-building grows Adani's empire</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Cement purchase as political contribution — viral framing</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=BkLgfiH31Xw" target="_blank" rel="noopener" class="creator-link">INOVI TV ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani-Modi 1Rs land deal Bihar — scam framing Shorts</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>₹1 land + political nexus — concise hostile short format</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=r22379wM-tI" target="_blank" rel="noopener" class="creator-link">Anant Cosmos ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Bihar 2400MW plant — 10 lakh trees at risk</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Environmental betrayal — orchard land, tree-felling narrative</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=MYkPohN2uNo" target="_blank" rel="noopener" class="creator-link">Live Cities Media ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Nawada Adani cement factory — worker revolt on-ground</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Workers' bawal inside factory — local labour unrest footage</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=KQuTuOvuD4o" target="_blank" rel="noopener" class="creator-link">BBC News Marathi ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani cement grinding project — why Kalyan locals resist</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Community resistance, environmental concern, EIA bypass</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=79JFbto2vmA" target="_blank" rel="noopener" class="creator-link">HW News English ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Supriya Shrinate targets Modi over Adani Kalyan plant</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Opposition politician's Adani-Modi crony framing — Shorts</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=Ln3x4uA45YA" target="_blank" rel="noopener" class="creator-link">GPlus ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Gauhati HC judge reacts to 3000 bigha Assam land deal</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Judicial outrage amplified — "is this a joke?" framing</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=6O_93lEvo0I" target="_blank" rel="noopener" class="creator-link">Live Law ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>3000 bighas tribal land given to cement company in Assam</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Legal angle — Gauhati HC, tribal rights, land coercion</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=DoiiRpLirUY" target="_blank" rel="noopener" class="creator-link">SAHIL BR ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>BJP gave 3000 bighas land to Adani — Shorts</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Assam land political gifting narrative — short-form viral</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=tnbXE5QdYs0" target="_blank" rel="noopener" class="creator-link">Crime Connect ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Will Gautam Adani be arrested? ₹2100 crore bribery story</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>US SEC bribery case explained for mass Hindi audience</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=0du-VIlD_N0" target="_blank" rel="noopener" class="creator-link">Adv. Akshay Samarth ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Assam BJP gave 3000 bigha tribal land to Adani cement factory</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>"Modi's India sale" — tribal land gifting to cement conglomerate</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=IQJaeYaoSsQ" target="_blank" rel="noopener" class="creator-link">Cobrapost ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Factcheck — Did Adani get 3000 bighas in Assam?</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Investigative factcheck — confirms controversy's factual core</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-hostile">
+            <td><strong><a href="https://www.youtube.com/watch?v=GRHFfjJftVY" target="_blank" rel="noopener" class="creator-link">Biz Tak ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Jewar airport — Adani got 4000 acre land at throwaway price</td>
+            <td><span class="sent-badge sent-hostile">Hostile</span></td>
+            <td>Adani land-at-discount pattern narrative — recurring theme</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+
+          <!-- ── SKEPTICAL / ANALYTICAL ── -->
           <tr class="ct-skeptical">
-            <td><strong>CA Piyush Bafna</strong></td>
+            <td><strong><a href="https://www.youtube.com/@CAPiyushBafna" target="_blank" rel="noopener" class="creator-link">CA Piyush Bafna ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>ADANI vs BIRLA — cement acquisition</td>
             <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
@@ -289,7 +469,7 @@
             <td><span class="brand-absent">Absent</span></td>
           </tr>
           <tr class="ct-skeptical">
-            <td><strong>Trading With Vivek</strong></td>
+            <td><strong><a href="https://www.youtube.com/@TradingWithVivek" target="_blank" rel="noopener" class="creator-link">Trading With Vivek ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>ACC/Ambuja merger — investor view</td>
             <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
@@ -297,7 +477,15 @@
             <td><span class="brand-absent">Absent</span></td>
           </tr>
           <tr class="ct-skeptical">
-            <td><strong>CA Rahul Malodia</strong></td>
+            <td><strong><a href="https://www.youtube.com/@CANikhilNainani" target="_blank" rel="noopener" class="creator-link">CA Nikhil Nainani ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>ACC equity devaluation &amp; working capital analysis</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>ACC siphoning narrative, inter-group MSA critique</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@CArahulmalodia" target="_blank" rel="noopener" class="creator-link">CA Rahul Malodia ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Birla vs Adani real estate war</td>
             <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
@@ -305,15 +493,178 @@
             <td><span class="brand-absent">Absent</span></td>
           </tr>
           <tr class="ct-skeptical">
-            <td><strong>Ankit Avasthi Insights</strong></td>
+            <td><strong><a href="https://www.youtube.com/@AnkitAvasthi" target="_blank" rel="noopener" class="creator-link">Ankit Avasthi Insights ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Adani cement market entry explained</td>
             <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
             <td>Monopoly risk, UltraTech arms race</td>
             <td><span class="brand-absent">Absent</span></td>
           </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@DrMukulAgrawal" target="_blank" rel="noopener" class="creator-link">Dr. Mukul Agrawal ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>ACC &amp; Orient merger — what shareholders get</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Merger dilution, stock crash post-SEC summons</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@RishabJain" target="_blank" rel="noopener" class="creator-link">Rishab Jain ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani Cement vs Birla — cement war case study</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Heritage usurpation, brand dilution narrative</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@AnantLadha" target="_blank" rel="noopener" class="creator-link">Anant Ladha ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani debt analysis &amp; power game</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>$3.5B refinancing risk, "80% crash" debt warnings</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@EngineerWalaConstruction" target="_blank" rel="noopener" class="creator-link">Engineer Wala Construction ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Ambuja vs UltraTech vs ACC real test results 2025</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Post-Adani quality drop vs legacy strength</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@OwnersVerdict" target="_blank" rel="noopener" class="creator-link">Owner's Verdict ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>ACC vs UltraTech vs Ambuja — best cement for plaster</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Consumer quality doubts, Ambuja losing spec battles</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@RKEngineering" target="_blank" rel="noopener" class="creator-link">RK Engineering ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Drop test: UltraTech Premium vs ACC F2R</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Physical product quality comparison, contractor trust</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/@CivilKiBat" target="_blank" rel="noopener" class="creator-link">Civil Ki Bat ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani Cement placement doubts — civil engineers</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>B2B trust erosion, working hour concerns</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.instagram.com/financewithsharan/" target="_blank" rel="noopener" class="creator-link">Sharan Hegde (@financewithsharan) ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Personal finance &amp; stock market for millennials</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>ACC governance risk premium, retail investor caution</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.instagram.com/labmoneytalks/" target="_blank" rel="noopener" class="creator-link">Lab Money Talks ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Stock analysis reels — Ambuja, ACC, Orient</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Merger ratio unfairness, working capital drain</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.instagram.com/stockmarketmoti/" target="_blank" rel="noopener" class="creator-link">Stock Market Moti ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Cement sector stock reels &amp; merger breakdowns</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>ACC at 52-week low, "sell or hold" confusion</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.reddit.com/r/IndianStockMarket" target="_blank" rel="noopener" class="creator-link">r/IndianStockMarket (Reddit) ↗</a></strong></td>
+            <td><span class="plat-pill plat-reddit">Reddit</span></td>
+            <td>ACC governance risk, merger ratio analysis</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Retail investor distrust, 50% below historic PE</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.reddit.com/r/IndianStreetBets" target="_blank" rel="noopener" class="creator-link">r/IndianStreetBets (Reddit) ↗</a></strong></td>
+            <td><span class="plat-pill plat-reddit">Reddit</span></td>
+            <td>Orient Cement merger ratio — "what happened?"</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Orient at scrap value, shareholder destruction fear</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://twitter.com/Nithin0dha" target="_blank" rel="noopener" class="creator-link">Nithin Kamath (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>Retail investor financial literacy &amp; market commentary</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Governance risk in conglomerate stocks, retail caution</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=02nwUf5pdpg" target="_blank" rel="noopener" class="creator-link">Wealth SaGa Global ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Why Adani is secretly buying bankrupt companies</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Debt-financed expansion strategy — "62,000 cr buying spree"</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=cBLnXTKKVts" target="_blank" rel="noopener" class="creator-link">Laughing Stocks ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>AWL Adani stock analysis — why Adani exited Wilmar</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Conglomerate portfolio credibility, equity exit concerns</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=-aUUuSEQrfc" target="_blank" rel="noopener" class="creator-link">Jayant Mundhra ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Cement industry India vs China — Ambuja/ACC vs UltraTech</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Marketshare battle framing, Adani vs Birla structural analysis</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=YW9glvepqWQ" target="_blank" rel="noopener" class="creator-link">Learn to Earn by AKR ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Ambuja ACC Orient merger demerger explainer</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Retail investor confusion around merger ratios, small channel</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=sp3g1ux6cPQ" target="_blank" rel="noopener" class="creator-link">Sarthak Bazar Se ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Ambuja, ACC, Orient Cement share latest news</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Small retail investor channel tracking merger impact daily</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=iwrwmXltLGE" target="_blank" rel="noopener" class="creator-link">Yadnya Investment Academy ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Daily stock news — Ambuja cement merger Dec 2025</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Merger impact on ACC/Ambuja retail investors — daily brief</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-skeptical">
+            <td><strong><a href="https://www.youtube.com/watch?v=-tAVpaKdY6Y" target="_blank" rel="noopener" class="creator-link">coachsurendra ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani acquires Jaypee Group with ₹57,000 cr debt</td>
+            <td><span class="sent-badge sent-skeptical">Skeptical</span></td>
+            <td>Debt-laden acquisition strategy — "unconditional bid wins" framing</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+
+          <!-- ── NEUTRAL / FINANCIAL NEWS ── -->
           <tr class="ct-neutral">
-            <td><strong>Zee Business / Mint</strong></td>
+            <td><strong><a href="https://www.youtube.com/@ZeeBusiness" target="_blank" rel="noopener" class="creator-link">Zee Business ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Merger &amp; JAL acquisition news</td>
             <td><span class="sent-badge sent-neutral">Neutral</span></td>
@@ -321,15 +672,114 @@
             <td><span class="brand-absent">Absent</span></td>
           </tr>
           <tr class="ct-neutral">
-            <td><strong>Viralkarbhar</strong></td>
-            <td><span class="plat-pill plat-instagram">Instagram</span></td>
-            <td>Local protest at Adani cement factory</td>
-            <td><span class="sent-badge sent-hostile">Hostile</span></td>
-            <td>Community resistance, environmental concern</td>
+            <td><strong><a href="https://www.youtube.com/@mint" target="_blank" rel="noopener" class="creator-link">Mint ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>JAL acquisition win &amp; cement sector deep dives</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Who wins, who loses — analytical framing</td>
             <td><span class="brand-absent">Absent</span></td>
           </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/@Upstox" target="_blank" rel="noopener" class="creator-link">Upstox ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>UltraTech vs Adani cement market reshaping</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Cement arms race, M&amp;A war, sector deep dive</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/@GrowwApp" target="_blank" rel="noopener" class="creator-link">Groww ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>UltraTech vs Ambuja Cements comparison</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Valuation gap, fundamentals vs sentiment</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/@BuildMakaan" target="_blank" rel="noopener" class="creator-link">BuildMakaan ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Cement GST cuts, price after merger</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Consumer pricing, GST &amp; Ambuja vs UltraTech</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.instagram.com/zerodha/" target="_blank" rel="noopener" class="creator-link">Zerodha (Instagram) ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Cement sector educational reels &amp; market updates</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Cement consolidation, daily brief market context</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://twitter.com/livemint" target="_blank" rel="noopener" class="creator-link">@livemint (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>Cement giant in the making — who wins, who loses</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Merger synergies vs retail investor skepticism</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://twitter.com/ANI" target="_blank" rel="noopener" class="creator-link">ANI (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>Odisha ceremony, official Adani investment coverage</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>State-level infrastructure investment framing</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.reddit.com/r/CriticalThinkingIndia" target="_blank" rel="noopener" class="creator-link">r/CriticalThinkingIndia (Reddit) ↗</a></strong></td>
+            <td><span class="plat-pill plat-reddit">Reddit</span></td>
+            <td>Fact-checking land deal outrage &amp; worker deaths</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Nuanced analysis but confirms underlying controversy</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/watch?v=ELxVaca46Vc" target="_blank" rel="noopener" class="creator-link">sai builders mp ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>All cement prices today — MP dealer price tracker</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Consumer-facing price tracking; Adani brands in dealer lists</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/watch?v=Z27GMCIPhwI" target="_blank" rel="noopener" class="creator-link">Money9 ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>ACC Ambuja Orient Sanghi merger — where to invest?</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Analytical framing, investment positioning post-merger</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/watch?v=lwgVWwtA22A" target="_blank" rel="noopener" class="creator-link">Markets by Zerodha Hindi ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>How India's cement giants are expanding fast</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Sector expansion framing — UltraTech/Ambuja/Shree comparison</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/watch?v=J_RqUK6riig" target="_blank" rel="noopener" class="creator-link">Jagran Business ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>Adani acquires Jaiprakash Associates — ₹15,000 cr deal</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Adani vs Anil Agarwal bidding war — business news framing</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+          <tr class="ct-neutral">
+            <td><strong><a href="https://www.youtube.com/watch?v=KsFN6TL_kmk" target="_blank" rel="noopener" class="creator-link">Alankar Gupta ↗</a></strong></td>
+            <td><span class="plat-pill plat-youtube">YouTube</span></td>
+            <td>He turned a dying cement plant into a $7.3B empire</td>
+            <td><span class="sent-badge sent-neutral">Neutral</span></td>
+            <td>Cement industry success stories — Shree Cement case study</td>
+            <td><span class="brand-absent">Absent</span></td>
+          </tr>
+
+          <!-- ── BRAND-OWNED ── -->
           <tr class="ct-brand">
-            <td><strong>@ambuja_cement_official</strong></td>
+            <td><strong><a href="https://www.instagram.com/ambuja_cement_official/" target="_blank" rel="noopener" class="creator-link">@ambuja_cement_official ↗</a></strong></td>
             <td><span class="plat-pill plat-instagram">Instagram</span></td>
             <td>Product &amp; brand campaigns</td>
             <td><span class="sent-badge sent-neutral">Passive</span></td>
@@ -337,7 +787,7 @@
             <td><span class="brand-present">Brand-owned</span></td>
           </tr>
           <tr class="ct-brand">
-            <td><strong>@acclimited</strong></td>
+            <td><strong><a href="https://www.instagram.com/acclimited/" target="_blank" rel="noopener" class="creator-link">@acclimited ↗</a></strong></td>
             <td><span class="plat-pill plat-instagram">Instagram</span></td>
             <td>Heritage &amp; product posts</td>
             <td><span class="sent-badge sent-neutral">Passive</span></td>
@@ -345,7 +795,47 @@
             <td><span class="brand-present">Brand-owned</span></td>
           </tr>
           <tr class="ct-brand">
-            <td><strong>Ambuja Cement (YT)</strong></td>
+            <td><strong><a href="https://www.instagram.com/adanicementofficial/" target="_blank" rel="noopener" class="creator-link">@adanicementofficial ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>TNFD, Green Building Centres, NAREDCO</td>
+            <td><span class="sent-badge sent-neutral">Passive</span></td>
+            <td>India's first TNFD cement company, sustainability</td>
+            <td><span class="brand-present">Brand-owned</span></td>
+          </tr>
+          <tr class="ct-brand">
+            <td><strong><a href="https://www.instagram.com/adanionline/" target="_blank" rel="noopener" class="creator-link">@adanionline ↗</a></strong></td>
+            <td><span class="plat-pill plat-instagram">Instagram</span></td>
+            <td>Odisha investment reels, group infrastructure</td>
+            <td><span class="sent-badge sent-neutral">Passive</span></td>
+            <td>₹33,000 cr Odisha, 2,500 jobs, nation-building</td>
+            <td><span class="brand-present">Brand-owned</span></td>
+          </tr>
+          <tr class="ct-brand">
+            <td><strong><a href="https://twitter.com/AmbujaCementACL" target="_blank" rel="noopener" class="creator-link">@AmbujaCementACL (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>Gagal plant sustainability, Himachal eucalyptus</td>
+            <td><span class="sent-badge sent-neutral">Passive</span></td>
+            <td>Sustainability PR, minimal organic amplification</td>
+            <td><span class="brand-present">Brand-owned</span></td>
+          </tr>
+          <tr class="ct-brand">
+            <td><strong><a href="https://twitter.com/ACCLimited" target="_blank" rel="noopener" class="creator-link">@ACCLimited (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>Nation-building legacy, 89-year heritage posts</td>
+            <td><span class="sent-badge sent-neutral">Passive</span></td>
+            <td>Legacy brand maintenance, low engagement rate</td>
+            <td><span class="brand-present">Brand-owned</span></td>
+          </tr>
+          <tr class="ct-brand">
+            <td><strong><a href="https://twitter.com/AdaniCement_" target="_blank" rel="noopener" class="creator-link">@AdaniCement_ (Twitter/X) ↗</a></strong></td>
+            <td><span class="plat-pill plat-twitter">Twitter/X</span></td>
+            <td>R&amp;D quality posts, sustainability certifications</td>
+            <td><span class="sent-badge sent-neutral">Passive</span></td>
+            <td>Multi-stage quality testing, TNFD, green tech</td>
+            <td><span class="brand-present">Brand-owned</span></td>
+          </tr>
+          <tr class="ct-brand">
+            <td><strong><a href="https://www.youtube.com/@AmbujaCementsltd" target="_blank" rel="noopener" class="creator-link">Ambuja Cement (YouTube) ↗</a></strong></td>
             <td><span class="plat-pill plat-youtube">YouTube</span></td>
             <td>Festive &amp; brand films</td>
             <td><span class="sent-badge sent-neutral">Passive</span></td>
@@ -354,6 +844,13 @@
           </tr>
         </tbody>
       </table>
+      <script>
+        (function(){
+          var rows = document.querySelectorAll('.creator-table tbody tr');
+          var el = document.getElementById('ct-count');
+          if(el) el.textContent = rows.length + ' creators tracked';
+        })();
+      </script>
     </div>
 
     <!-- Platform mention share — % based, no raw numbers -->

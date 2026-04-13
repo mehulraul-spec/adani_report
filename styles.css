@@ -800,6 +800,41 @@ a.evidence-source:hover { color:#d4960a; }
   overflow-x:auto; margin-bottom:32px;
   border:1px solid var(--rule);
 }
+.creator-table-scrollable {
+  position:relative;
+}
+.creator-table-scrollable .creator-table tbody {
+  display:block;
+  max-height:560px;
+  overflow-y:auto;
+  scrollbar-width:thin;
+  scrollbar-color:rgba(10,10,10,0.20) transparent;
+}
+.creator-table-scrollable .creator-table thead,
+.creator-table-scrollable .creator-table tbody tr {
+  display:table;
+  width:100%;
+  table-layout:fixed;
+}
+.creator-table-scrollable .creator-table thead {
+  width:calc(100% - 0px);
+}
+.creator-scroll-hint {
+  font-family:var(--font); font-size:10px; font-weight:700;
+  letter-spacing:1px; text-transform:uppercase;
+  color:rgba(10,10,10,0.35); padding:7px 14px 6px;
+  background:rgba(10,10,10,0.03); border-bottom:1px solid var(--rule);
+  display:flex; align-items:center; gap:6px;
+}
+.creator-link {
+  color:var(--ink); text-decoration:none;
+  border-bottom:1px solid rgba(10,10,10,0.18);
+  transition:border-color 0.15s, color 0.15s;
+  font-weight:700;
+}
+.creator-link:hover {
+  color:var(--blue); border-color:var(--blue);
+}
 .creator-table {
   width:100%; border-collapse:collapse; font-family:var(--font);
   font-size:12.5px;
